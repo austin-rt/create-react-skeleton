@@ -1,6 +1,7 @@
 # Getting Started
 
-This is a stripped version of the known and loved command `npx-create-react-app <project-name>`
+This is a stripped version of the known and loved command `npx create-react-app <project-name>`
+To get started, simply run `npx @austinrt/create-react-skeleton <project-name>`
 
 ## Available Scripts
 

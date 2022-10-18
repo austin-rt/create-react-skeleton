@@ -1,6 +1,6 @@
 {
-  "name": "@austinrt/create-react-skeleton",
-  "version": "0.1.16",
+  "name": "create-react-skel",
+  "version": "0.1.17",
   "bin": "./bin/cli.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

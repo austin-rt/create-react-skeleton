@@ -1,12 +1,12 @@
 # Getting Started
 
-This is a stripped version of the known and loved command `npx create-react-app <project-name>`. We've included some proper CSS boilerplate to zero out padding, margin, etc, as well as a `./src/components` directory with a `Test.jsx` component.
+This is a stripped version of the known and loved command `npx create-react-app <project-name>`.Included is some proper CSS boilerplate to zero out padding, margin, etc, as well as a `./src/components` directory with a `Test.jsx` component.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npx @austinrt/create-react-skeleton <project-name>`
+### `npx create-react-skel <project-name>`
 
 Clones the existing repo and installs all dependencies. \
 When propted, respond with `y` + <kbd>return</kbd>.

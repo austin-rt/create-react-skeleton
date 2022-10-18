@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npx create-react-skel <project-name>`
 
 Clones this repo and installs all dependencies. \
-When propted, respond with `y` + <kbd>return</kbd>.
+When propted, respond with `y` + <kbd>return</kbd>. \
 Unlike `npx create-react-app`, `npx create-react-skel` requires a repo name as an argument.
 
 Alternatively, you can click [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a repo using this template.

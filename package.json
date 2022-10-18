@@ -1,5 +1,5 @@
 {
-  "name": "@austin-rt/create-react-skeleton",
+  "name": "@austinrt/create-react-skeleton",
   "version": "0.1.0",
   "bin": "./bin/cli.js",
   "dependencies": {

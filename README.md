@@ -10,9 +10,8 @@ In the project directory, you can run:
 
 Clones this repo and installs all dependencies. \
 When propted, respond with `y` + <kbd>return</kbd>. \
-Unlike `npx create-react-app`, `npx create-react-skel` requires a repo name as an argument.
-
-Alternatively, you can click [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a repo using this template.
+Unlike `npx create-react-app`, `npx create-react-skel` requires a repo name as an argument. \
+Alternatively, you can simply click [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a repo using this template.
 
 ### `npm start`
 

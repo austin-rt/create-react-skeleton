@@ -1,11 +1,15 @@
 # Getting Started
 
 This is a stripped version of the known and loved command `npx create-react-app <project-name>`. We've included some proper CSS boilerplate as well as a /src/components directory
-To get started, simply run `npx @austinrt/create-react-skeleton <project-name>`, then `y` + <kbd>return</kbd> when prompted
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npx @austinrt/create-react-skeleton <project-name>`
+
+Clones the existing repo and installs all dependencies. \
+When propted, respond with `y` + <kbd>return</kbd>. \
 
 ### `npm start`
 

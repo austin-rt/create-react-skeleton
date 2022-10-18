@@ -1,6 +1,6 @@
 # Getting Started
 
-This is a stripped version of the known and loved command `npx create-react-app <project-name>`. We've included some proper CSS boilerplate as well as a /src/components directory
+This is a stripped version of the known and loved command `npx create-react-app <project-name>`. We've included some proper CSS boilerplate as well as a `./src/components` directory.
 
 ## Available Scripts
 

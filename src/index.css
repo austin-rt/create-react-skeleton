@@ -9,14 +9,14 @@
 }
 
 :root {
-  /* --color-bg: #2F3E46;
+  --color-bg: #2F3E46;
   --color-bg-alt: #354F52;
   --color-primary: #84A98C;
   --color-primary-alt: rgba(82, 121, 111, 0.4);
   --color-white: rgb(218, 218, 218);
   --color-light: rgba(202, 210, 197, 0.6);
 
-  --transition: all 400ms ease; */
+  --transition: all 400ms ease;
 }
 
 html {

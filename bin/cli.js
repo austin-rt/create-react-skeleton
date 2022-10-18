@@ -13,7 +13,7 @@ const runCommand = (command) => {
 }
 
 const repoName = process.argv[2]
-const gitCheckoutCommand = `git clone --depth 2 https://github.com/austin-rt/create-react-skeleton.git ${repoName}`
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/austin-rt/create-react-skeleton.git ${repoName}`
 const installDepsCommand = `cd ${repoName} && npm install`
 
 console.log(`Cloning with name ${repoName}`)

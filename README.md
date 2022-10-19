@@ -2,6 +2,10 @@
 
 This is a stripped version of the `npx create-react-app <project-name>` command that we all know and love. This version includes some CSS boilerplate to zero out padding, margin, etc, as well as a `./src/components` directory with a `Test.jsx` component.
 
+Find the npm package [here](https://www.npmjs.com/package/create-react-skel).
+
+Please raise any issues [here](https://github.com/austin-rt/create-react-skeleton/issues).
+
 ## Available Scripts
 
 In the project directory, you can run:

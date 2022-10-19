@@ -1,6 +1,6 @@
 # Getting Started
 
-This is a stripped version of the `npx create-react-app <project-name>` command that we all know and love. This version includes some CSS boilerplate to zero out padding, margin, etc, as well as a `./src/components` directory with a `Test.jsx` component.
+This is a stripped down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` includes some CSS boilerplate to zero out margin, padding, boarder, outline, list style, and text-decoration, and sets box sizing to `border-box`, as well as adding a `./src/components` directory with a `TestComponent.jsx` file.
 
 Find the npm package [here](https://www.npmjs.com/package/create-react-skel).
 

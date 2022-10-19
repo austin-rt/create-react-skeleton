@@ -1,6 +1,6 @@
 import './index.css'
 
-import Test from './components/Test'
+import Test from './components/TestComponent'
 
 function App() {
   return (

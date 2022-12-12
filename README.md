@@ -2,15 +2,15 @@
 
 ### Run `npx create-react-skel <project-name>`
 
-When propted, respond with `y` + <kbd>return</kbd>.
+If prompted, respond with <kbd>y</kbd> + <kbd>return</kbd>.
 
 The starter command clones this repo and installs base dependencies.
 
 ## More Info
 
-This is a stripped down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` also includes some CSS boilerplate to zero out margin, padding, border, outline, list style, and text decoration, and sets box sizing to `border-box`. It also adds a `./src/components` directory with a `TestComponent.jsx` file.
+This is a stripped-down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` also includes some CSS boilerplate to zero out margin, padding, border, outline, list style, and text decoration and sets box-sizing to `border-box`. It also adds a `./src/components` directory with a `TestComponent.jsx` file.
 
-Unlike `npx create-react-app`, `.` is not a vaild directory name argument.
+If you provide `.` as a directory name or leave it blank, the command will install a React App in the current directory.
 
 ## Next Steps
 
@@ -26,7 +26,7 @@ In the project directory, you can still run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -37,7 +37,7 @@ You may also see any lint errors in the console.
 Still builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified, and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

@@ -10,7 +10,7 @@ The starter command clones this repo and installs base dependencies.
 
 This is a stripped-down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` also includes some CSS boilerplate to zero out margin, padding, border, outline, list style, and text decoration and sets box-sizing to `border-box`. It also adds a `./src/components` directory with a `TestComponent.jsx` file.
 
-If you provide `.` as a directory name or leave it blank, the command will install a React App in the current directory.
+The default behavior is to install a React App in the current directory. This can also be achieved by using `.` as the `<project-name>` argument.
 
 ## Next Steps
 

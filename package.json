@@ -1,6 +1,6 @@
 {
   "name": "create-react-skel",
-  "version": "0.2.10",
+  "version": "0.2.12",
   "bin": "./bin/cli.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

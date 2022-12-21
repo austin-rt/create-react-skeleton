@@ -8,9 +8,9 @@ The starter command clones this repo and installs basic React dependencies.
 
 ## More Info
 
-This is a stripped-down version of the `npx create-react-app` command that
-includes both an empty `/src/components` directory and the following CSS
-boilerplate
+`create-react-skel` is a stripped-down version of `create-react-app` that
+includes both an empty `/src/components` directory and a `reset.css` file with
+the following CSS boilerplate:
 
 ```css
 * {
@@ -32,15 +32,23 @@ html {
 }
 ```
 
+`eslintConfig` will throw errors for `no-unused-vars` and `no-console`. To
+disable, edit in `package.json` or disable per line with
+`// eslint-disable-next-line`.
+
 ## Next Steps
 
 `react-skel` removes the remote from the cloned repository, so you'll have to
 run `git init` and `git remote add origin <remote-url>` to connect to your
 desired remote repository.
 
+## Template Repo
+
 Alternatively, you can click
 [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a
 new repo using this same template.
+
+## NPM Package
 
 Find the npm package [here](https://www.npmjs.com/package/create-react-skel).
 

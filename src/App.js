@@ -1,9 +1,8 @@
-import './index.css';
-
 function App() {
   return (
     <div>
       <pre>{`
+       💀
       ･ ｡
  　　　☆∴｡
 　　･ﾟ*｡★･

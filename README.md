@@ -4,50 +4,57 @@
 
 If prompted, respond with <kbd>y</kbd> + <kbd>return</kbd>.
 
-The starter command clones this repo and installs base dependencies.
+The starter command clones this repo and installs basic React dependencies.
 
 ## More Info
 
-This is a stripped-down version of the `npx create-react-app` command that we all know and love. `create-react-skel <project-name>` also includes some CSS boilerplate to zero out margin, padding, border, outline, list style, and text decoration and sets box-sizing to `border-box`. It also adds a `./src/components` directory with a `TestComponent.jsx` file.
+This is a stripped-down version of the `npx create-react-app` command that
+includes both an empty `/src/components` directory and the following CSS
+boilerplate
 
-The default behavior is to install a React App in the current directory. This can also be achieved by using `.` as the `<project-name>` argument.
+```css
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+```
 
 ## Next Steps
 
-`react-skel` removes the remote from the cloned repository. Run `git init` and `git remote add origin <remote-url>` to connect to your desired remote repository.
+`react-skel` removes the remote from the cloned repository, so you'll have to
+run `git init` and `git remote add origin <remote-url>` to connect to your
+desired remote repository.
 
-Alternatively, you can click [here](https://github.com/austin-rt/create-react-skeleton/generate) to create a new repo using this same template.
+Alternatively, you can click
+[here](https://github.com/austin-rt/create-react-skeleton/generate) to create a
+new repo using this same template.
 
 Find the npm package [here](https://www.npmjs.com/package/create-react-skel).
 
 ## Available Scripts
 
-In the project directory, you can still run:
-
 ### `npm start`
 
-Runs the app in development mode.\
+Still runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Still builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified, and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The page will still reload when you make changes.\
+You may still see any lint errors in the console.
 
 ## To Contribute
 
-Please don't hesitate to submit PRs or raise any issues [here](https://github.com/austin-rt/create-react-skeleton/issues).
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please don't hesitate to submit PRs or raise any issues
+[here](https://github.com/austin-rt/create-react-skeleton/issues).
